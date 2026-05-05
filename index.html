@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche | The Ultimate Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <h1 class="preloader-text">PORSCHE</h1>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo">PORSCHE</div>
+        <nav class="nav-links">
+            <a href="#models" class="hover-link">Models</a>
+            <a href="#performance" class="hover-link">Performance</a>
+            <a href="#discover" class="hover-link">Discover</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg parallax-bg" style="background-image: url('https://images.unsplash.com/photo-1503376713919-8669438992e1?auto=format&fit=crop&q=80&w=2000');"></div>
+        <div class="hero-content">
+            <h1 class="hero-title reveal-text">Unleash</h1>
+            <h1 class="hero-title reveal-text delay-1">The Beast.</h1>
+            <p class="hero-subtitle reveal-text delay-2">Experience engineering perfection.</p>
+        </div>
+        <div class="hero-car">
+            <img src="car1.png" alt="Porsche Car" class="car-image" id="carImage">
+            <button class="car-nav-btn car-nav-left" aria-label="Previous car">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="car-nav-btn car-nav-right" aria-label="Next car">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+        </div>
+        <div class="scroll-indicator">Scroll to discover</div>
+    </section>
+
+    <!-- The Fleet Section -->
+    <section id="models" class="fleet">
+        <h2 class="section-title fade-up">The Fleet</h2>
+        <div class="fleet-container">
+            <div class="fleet-card" style="animation-delay: 0s;">
+                <div class="fleet-image-wrapper">
+                    <img src="cc1.png" alt="Porsche 911 Turbo S">
+                </div>
+                <div class="fleet-info"><p>Porsche 911 Turbo S</p></div>
+            </div>
+            <div class="fleet-card" style="animation-delay: 0.1s;">
+                <div class="fleet-image-wrapper">
+                    <img src="cc2.png" alt="Porsche Cayman GT4 RS">
+                </div>
+                <div class="fleet-info"><p>Porsche Cayman GT4 RS</p></div>
+            </div>
+            <div class="fleet-card" style="animation-delay: 0.1s;">
+                <div class="fleet-image-wrapper">
+                    <img src="cc3.png" alt="Porsche 918 Spyder">
+                </div>
+                <div class="fleet-info"><p>Porsche 918 Spyder</p></div>
+            </div>
+            <div class="fleet-card" style="animation-delay: 0.2s;">
+                <div class="fleet-image-wrapper">
+                    <img src="cc4.png" alt="Porsche 911 GT3 RS">
+                </div>
+                <div class="fleet-info"><p>Porsche 911 GT3 RS</p></div>
+            </div>
+            <div class="fleet-card" style="animation-delay: 0.2s;">
+                <div class="fleet-image-wrapper">
+                    <img src="cc5.png" alt="Porsche 911 GT2 RS">
+                </div>
+                <div class="fleet-info"><p>Porsche 911 GT2 RS</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creators Section -->
+    <section class="creators">
+        <h2 class="creators-title">CREATORS OF THIS PROJECT</h2>
+        <div class="creators-cards">
+            <div class="creator-card">
+                <div class="creator-content">
+                    <h3 class="creator-name">Denis Uichev</h3>
+                    <p class="creator-desc">(Put a place holder for now)</p>
+                </div>
+            </div>
+            <div class="creator-card">
+                <div class="creator-content">
+                    <h3 class="creator-name">Atanas Tanev</h3>
+                    <p class="creator-desc">(Put a place holder for now)</p>
+                </div>
+            </div>
+            <div class="creator-card">
+                <div class="creator-content">
+                    <h3 class="creator-name">Daniel Georgiev</h3>
+                    <p class="creator-desc">(Put a place holder for now)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="logo">PORSCHE</div>
+        <p>&copy; 2026 Porsche Experiences. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
